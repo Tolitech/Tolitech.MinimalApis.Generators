@@ -1,0 +1,16 @@
+﻿<Project>
+  <PropertyGroup>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <AnalysisMode>all</AnalysisMode>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="StyleCop.Analyzers" PrivateAssets="all" Version="1.2.0-beta.556" />
+    <PackageReference Include="SonarAnalyzer.CSharp" PrivateAssets="all" Version="10.12.0.118525" />
+    <PackageReference Include="Roslynator.Analyzers" PrivateAssets="all" Version="4.13.1" />
+  </ItemGroup>
+</Project>
