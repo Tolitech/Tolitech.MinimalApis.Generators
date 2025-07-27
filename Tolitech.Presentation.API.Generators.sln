@@ -3,9 +3,50 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tolitech.Presentation.API.Generators.Abstractions", "src\Presentation.API.Generators.Abstractions\Tolitech.Presentation.API.Generators.Abstractions.csproj", "{2745107A-60F6-4D3F-912C-B8B2D38B3E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tolitech.Presentation.API.Generators", "src\Presentation.API.Generators\Tolitech.Presentation.API.Generators.csproj", "{FD96B3AB-796F-4FD8-9971-9F0AC8985E84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tolitech.Presentation.API.Generators.UnitTests", "tests\API.Generators.UnitTests\Tolitech.Presentation.API.Generators.UnitTests.csproj", "{172B6D91-4321-4C57-857D-226F28ED801D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{089100B1-113F-4E66-888A-E83F3999EAFD}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+		README.pt.md = README.pt.md
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2745107A-60F6-4D3F-912C-B8B2D38B3E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2745107A-60F6-4D3F-912C-B8B2D38B3E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2745107A-60F6-4D3F-912C-B8B2D38B3E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2745107A-60F6-4D3F-912C-B8B2D38B3E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD96B3AB-796F-4FD8-9971-9F0AC8985E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD96B3AB-796F-4FD8-9971-9F0AC8985E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD96B3AB-796F-4FD8-9971-9F0AC8985E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD96B3AB-796F-4FD8-9971-9F0AC8985E84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172B6D91-4321-4C57-857D-226F28ED801D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172B6D91-4321-4C57-857D-226F28ED801D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172B6D91-4321-4C57-857D-226F28ED801D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172B6D91-4321-4C57-857D-226F28ED801D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2745107A-60F6-4D3F-912C-B8B2D38B3E39} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{FD96B3AB-796F-4FD8-9971-9F0AC8985E84} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{172B6D91-4321-4C57-857D-226F28ED801D} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB12337E-1C35-4B19-87E2-7938D0339D3A}
