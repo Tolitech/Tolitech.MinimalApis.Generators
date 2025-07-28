@@ -75,13 +75,13 @@ public class Generator : IIncrementalGenerator
                 .AppendLine("/// <summary>")
                 .AppendLine("/// Provides extension methods for registering endpoint definitions.")
                 .AppendLine("/// </summary>")
-                .AppendLine("public static class EndpointRouteBuilderExtensions")
+                .AppendLine("internal static class EndpointRouteBuilderExtensions")
                 .AppendLine("{")
                 .AppendLine("    /// <summary>")
                 .AppendLine("    /// Registers all application endpoints to the specified <see cref=\"IEndpointRouteBuilder\"/>.")
                 .AppendLine("    /// </summary>")
                 .AppendLine("    /// <param name=\"app\">The endpoint route builder to which endpoints will be registered.</param>")
-                .AppendLine("    public static void MapEndpoints(this IEndpointRouteBuilder app)")
+                .AppendLine("    internal static void MapEndpoints(this IEndpointRouteBuilder app)")
                 .AppendLine("    {");
 
             foreach (string? impl in endpointImplementations.Distinct())
