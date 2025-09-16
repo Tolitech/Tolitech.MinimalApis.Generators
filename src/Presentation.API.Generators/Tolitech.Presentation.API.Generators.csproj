@@ -10,7 +10,7 @@
     <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>$(AssemblyName)</Title>
-    <Version>1.0.0-preview.3</Version>
+    <Version>1.0.0-preview.4</Version>
     <Authors>Tolitech</Authors>
     <Copyright>Copyright (c) 2025 Tolitech</Copyright>
     <PackageProjectUrl>https://www.tolitech.com.br</PackageProjectUrl>

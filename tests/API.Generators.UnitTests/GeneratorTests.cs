@@ -21,7 +21,7 @@ public class GeneratorTests
         var app = builder.Build();
 
         // Act
-        app.MapEndpoints();
+        app.MapEndpointsGenerated();
 
         // Assert
         Assert.True(true);
