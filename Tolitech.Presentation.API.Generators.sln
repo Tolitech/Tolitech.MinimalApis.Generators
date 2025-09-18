@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tolitech.Presentation.API.G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tolitech.Presentation.API.Generators", "src\Presentation.API.Generators\Tolitech.Presentation.API.Generators.csproj", "{FD96B3AB-796F-4FD8-9971-9F0AC8985E84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tolitech.Presentation.API.Generators.UnitTests", "tests\API.Generators.UnitTests\Tolitech.Presentation.API.Generators.UnitTests.csproj", "{172B6D91-4321-4C57-857D-226F28ED801D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tolitech.Presentation.API.Generators.IntegrationTests", "tests\API.Generators\Tolitech.Presentation.API.Generators.IntegrationTests.csproj", "{172B6D91-4321-4C57-857D-226F28ED801D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{089100B1-113F-4E66-888A-E83F3999EAFD}"
 	ProjectSection(SolutionItems) = preProject
