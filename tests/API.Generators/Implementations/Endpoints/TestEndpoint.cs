@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Routing;
 
 using Tolitech.Presentation.API.Generators.Abstractions;
 
-namespace Tolitech.Presentation.API.Generators.UnitTests.Implementations.Endpoints;
+namespace Tolitech.Presentation.API.Generators.IntegrationTests.Implementations.Endpoints;
 
 /// <summary>
 /// Defines the endpoints for testing purposes within the application.
