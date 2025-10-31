@@ -1,19 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>$(AssemblyName)</Title>
-    <Version>1.0.0-preview.1</Version>
+    <Version>1.0.0-preview.2</Version>
     <Authors>Tolitech</Authors>
     <Description>Provides abstractions for defining and registering ASP.NET endpoints via interfaces, enabling standardized and automated route mapping.</Description>
     <Copyright>Copyright (c) 2025 Tolitech</Copyright>
     <PackageProjectUrl>https://www.tolitech.com.br</PackageProjectUrl>
     <PackageIcon>tolitech-icon.png</PackageIcon>
     <PackageReadmeFile>README.en.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/Tolitech/Presentation.API.Generators</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Tolitech/Tolitech.Presentation.API.Generators</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>aspnetcore; endpoints; routing</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
