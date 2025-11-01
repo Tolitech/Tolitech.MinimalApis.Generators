@@ -1,4 +1,4 @@
-﻿# Tolitech.Presentation.API.Generators
+﻿# Tolitech.MinimalApis.Generators
 
 ## Visão Geral
 
@@ -6,7 +6,7 @@ Este projeto implementa um gerador de código Roslyn para ASP.NET, que identific
 
 ## Funcionamento
 
-O gerador escaneia o projeto em busca de classes que implementam `Tolitech.Presentation.API.Generators.Abstractions.IEndpoint` e não são abstratas. Para cada classe encontrada, o gerador cria um método de extensão que registra todos os endpoints na aplicação.
+O gerador escaneia o projeto em busca de classes que implementam `Tolitech.MinimalApis.Generators.Abstractions.IEndpoint` e não são abstratas. Para cada classe encontrada, o gerador cria um método de extensão que registra todos os endpoints na aplicação.
 
 ## Exemplo de Código Gerado
 
@@ -25,7 +25,7 @@ public static class EndpointRouteBuilderExtensions
 ## Como Usar
 
 1. **Implemente a interface IEndpoint em seus endpoints** (veja README do projeto Abstractions).
-2. **Adicione o Tolitech.Presentation.API.Generators como analisador no seu projeto**.
+2. **Adicione o Tolitech.MinimalApis.Generators como analisador no seu projeto**.
 3. **Chame o método gerado para registrar todos os endpoints:**
 
 ```csharp
@@ -59,4 +59,4 @@ app.MapEndpoints();
 ```
 
 ## Observações
-Este projeto depende do Tolitech.Presentation.API.Generators.Abstractions para identificar os endpoints. Recomenda-se utilizar ambos em conjunto.
+Este projeto depende do Tolitech.MinimalApis.Generators.Abstractions para identificar os endpoints. Recomenda-se utilizar ambos em conjunto.

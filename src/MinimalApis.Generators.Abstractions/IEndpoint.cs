@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Routing;
 
-namespace Tolitech.Presentation.API.Generators.Abstractions;
+namespace Tolitech.MinimalApis.Generators.Abstractions;
 
 /// <summary>
 /// Defines a contract for mapping an endpoint to an <see cref="IEndpointRouteBuilder"/>.

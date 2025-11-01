@@ -1,4 +1,4 @@
-﻿# Tolitech.Presentation.API.Generators.Abstractions
+﻿# Tolitech.MinimalApis.Generators.Abstractions
 
 ## Visão Geral
 
@@ -20,7 +20,7 @@ public interface IEndpoint
 1. **Implemente a interface IEndpoint:**
 
 ```csharp
-using Tolitech.Presentation.API.Generators.Abstractions;
+using Tolitech.MinimalApis.Generators.Abstractions;
 using Microsoft.AspNetCore.Routing;
 
 public sealed class MeuEndpoint : IEndpoint
@@ -34,7 +34,7 @@ public sealed class MeuEndpoint : IEndpoint
 
 2. **Utilize o gerador para registrar todos os endpoints automaticamente:**
 
-Ao utilizar o projeto junto com o Tolitech.Presentation.API.Generators, todos os endpoints que implementam `IEndpoint` serão registrados automaticamente.
+Ao utilizar o projeto junto com o Tolitech.MinimalApis.Generators, todos os endpoints que implementam `IEndpoint` serão registrados automaticamente.
 
 ## Vantagens
 - Padronização na definição de endpoints
@@ -60,4 +60,4 @@ public sealed class TestEndpoint : IEndpoint
 Ao rodar a aplicação, o endpoint `/test` estará disponível automaticamente se o gerador for utilizado.
 
 ## Observações
-Este projeto é destinado a ser utilizado em conjunto com o Tolitech.Presentation.API.Generators para automação do registro de endpoints.
+Este projeto é destinado a ser utilizado em conjunto com o Tolitech.MinimalApis.Generators para automação do registro de endpoints.

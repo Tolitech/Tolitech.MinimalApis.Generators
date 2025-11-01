@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Routing;
 
-using Tolitech.Presentation.API.Generators.Abstractions;
+using Tolitech.MinimalApis.Generators.Abstractions;
 
-namespace Tolitech.Presentation.API.Generators.IntegrationTests.Implementations.Endpoints;
+namespace Tolitech.MinimalApis.Generators.IntegrationTests.Implementations.Endpoints;
 
 /// <summary>
 /// Defines the endpoints for testing purposes within the application.

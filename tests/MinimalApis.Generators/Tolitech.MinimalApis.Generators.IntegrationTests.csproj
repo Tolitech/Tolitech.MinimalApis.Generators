@@ -21,8 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Presentation.API.Generators.Abstractions\Tolitech.Presentation.API.Generators.Abstractions.csproj" />
-    <ProjectReference Include="..\..\src\Presentation.API.Generators\Tolitech.Presentation.API.Generators.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\..\src\MinimalApis.Generators.Abstractions\Tolitech.MinimalApis.Generators.Abstractions.csproj" />
+    <ProjectReference Include="..\..\src\MinimalApis.Generators\Tolitech.MinimalApis.Generators.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
   </ItemGroup>
 
   <ItemGroup>
