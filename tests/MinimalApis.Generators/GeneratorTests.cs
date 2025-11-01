@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http.HttpResults;
 
-using Tolitech.Presentation.API.Generators.IntegrationTests.Implementations.Endpoints;
+using Tolitech.MinimalApis.Generators.IntegrationTests.Implementations.Endpoints;
 
-namespace Tolitech.Presentation.API.Generators.IntegrationTests;
+namespace Tolitech.MinimalApis.Generators.IntegrationTests;
 
 /// <summary>
 /// Contains unit tests for verifying the behavior of endpoint registration in a web application.

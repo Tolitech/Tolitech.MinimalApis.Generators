@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="README.md" />
+    <File Path="README.pt.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/MinimalApis.Generators.Abstractions/Tolitech.MinimalApis.Generators.Abstractions.csproj" />
+    <Project Path="src/MinimalApis.Generators/Tolitech.MinimalApis.Generators.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MinimalApis.Generators/Tolitech.MinimalApis.Generators.IntegrationTests.csproj" />
+  </Folder>
+</Solution>
